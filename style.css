@@ -1,0 +1,307 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7D1321;
+    height: 70px;
+}
+
+.header_button {
+    display: flex;
+}
+
+.header_button a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    margin-left: 50px;
+    color: black;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    margin-bottom: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
+    width: 613px;
+}
+
+button:hover {
+    background-color: white;
+    color: #7D1321;
+}
+
+#cover {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cover_big_img {
+    margin-top: 50px;
+}
+
+.cover_menu_img {
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.cover_menu_img img {
+    margin: 30px;
+}
+
+.about_us_content {
+    display: flex;
+}
+
+.about_us_text h2 {
+    color: white;
+    background-color: black;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    height: 85px;
+    width: 450px;
+    font-size: 48px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.about_us_text p {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+#cover,
+#about_us,
+#delivery_and_payment,
+#catalog,
+#contacts {
+    margin-bottom: 120px;
+}
+
+#catalog h2 {
+    color: white;
+    background-color: black;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    height: 85px;
+    width: 600px;
+    font-size: 48px;
+    padding-left: 10px;
+}
+
+.card {
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 0px 0px 15px 15px;
+    height: 618px;
+}
+
+.cards h3,
+p {
+
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.card_price {
+    padding: 5px;
+    border-top:1px solid black ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.card img {
+    margin-bottom: 10px;
+}
+
+.btn_card {
+    color: white;
+    background-color: #7D1321;
+    font-size: 24px;
+    border-radius: 15px;
+    height: 58px;
+    width: 350px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_us_text_first {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 650px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.about_us_text_second {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 650px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.delivery_and_payment {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dap_heading {
+    color: white;
+    background-color: black;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85px;
+    width: 600px;
+    font-size: 48px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.dap_content {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+}
+
+.dap_content img {
+    margin-right: 60px;
+}
+
+.dap_text {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 480px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+}
+
+.contacts_heading {
+    color: white;
+    background-color: black;
+    margin-bottom: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85px;
+    width: 489px;
+    font-size: 48px;
+}
+
+.contacts_content {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 350px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 36px;
+}
+
+.all_contacts{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts_content p {
+    font-size: 24px;
+}
+
+.footer_contacts {
+    line-height: 2;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_menu {
+    line-height: 2;
+}
+
+.footer_menu button {
+    color: white;
+    background-color: #7D1321;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.button_footer {
+    color: white;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    height: 30px;
+    width: 150px;
+    margin: 5px;
+    background-color: #7D1321;
+}
+
+.button_footer:hover {
+    background-color: white;
+    color: #7D1321;
+}
